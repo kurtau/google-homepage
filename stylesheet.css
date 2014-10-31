@@ -1,0 +1,107 @@
+.navbar {
+	font-family: Arial;
+	font-size: 13px;
+	padding-right: 15px;
+}
+
+.navbar ul {
+	padding-top: 5px;
+}
+
+.navbar ul li {
+	display: inline;
+	float: right;
+	text-decoration: none;
+	padding-right: 15px;
+}
+
+.navbar a:link, .navbar a:visited, .navbar a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+#grid img {
+	margin-top: -7px;
+}
+
+.navbar ul li button {
+	position:relative;
+	top:-6px;
+	height:29px;
+	background: #2E8AE6;
+	width: 70px;
+	font-weight: bold;
+	border: 0px;
+	color: white;
+}
+
+.main {
+	display: block;
+	text-align: center;
+}
+
+.logo {
+	padding-top: 140px;
+	width: 269px;
+	height: 95px;
+	text-align: center;
+}
+
+.searchgroup {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.searchbar {
+	width: 575px;
+	height: 26px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+.buttons {
+	display: inline;
+}
+
+.buttons button{
+	font-weight: bold;
+	font-size: 12px;
+	height: 29px;
+	width: 118px;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.footer {
+	height: 40px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer ul li {
+	display: inline;
+	font-size: 13px;
+	font-family: Arial;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+	bottom: 5px;
+}
+
+.footerleft {
+	float: left;
+	padding-left: 17px;
+	text-decoration: none;
+}
+
+.footerright {
+	float: right;
+	padding-right: 17px;
+	text-decoration: none;
+}
+
+.footer a:link, .footer a:visited, .footer a:hover{
+	text-decoration: none;
+	color: rgba(116,116,116,1);
+}
